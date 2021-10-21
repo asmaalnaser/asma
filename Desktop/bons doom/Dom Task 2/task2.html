@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Dom Task 2</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="task2.js" defer></script>
+</head>
+<body onload="addList()">
+
+<div class="div1">
+    <h4>
+        Q1) function to count the times button was clicked
+    </h4>
+
+    <button id="btn">Click Me</button>
+
+    <p>
+        Button Clicked <span
+        id="display">0</span> Times
+    </p>
+    <hr>
+
+
+    <h4>
+        Q2) Convert To USD, EUR and POUND
+    </h4>
+    <input type="text" id="SAR" size="10" placeholder="00 SAR" onchange="sarfunc()"/>
+    <label for="SAR"> SAR </label>
+
+    </br>
+
+    <input type="text" id="USD" size="10" placeholder="00 USD" onchange="usdfunc()" />
+    <label for="USD"> USD </label>
+
+    </br>
+
+    <input type="text" id="EUR" size="10" placeholder="00 EUR" onchange="eurfunc()" />
+    <label for="EUR"> EUR </label>
+
+    </br>
+
+    <input type="text" id="Pound" size="10" placeholder="00 Pound" onchange="poundfunc()" />
+    <label for="Pound"> PND </label>
+</div>
+
+<div class="div1">
+    
+    <h4>
+        Q3) Create DropDownList using JavaScrip
+    </h4>
+
+    <span>Option: </span><select id="dropdown"></select>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: bolder;
+}
+
+body {
+
+  padding-top: 10%;
+  text-align: center;
+     vertical-align: middle;
+    background: linear-gradient(to right, #e576f0, #ec8a9f);
+  }
+button {
+width: 10%;
+display: inline-block;
+margin-top: 10px;
+padding: 10px 0px 10px 0px;
+border-radius: 10px ;
+
+}
+input{
+
+text-align: center;
+border-radius: 10px ;
+margin: 10px;
+
+padding: 10px 0px 10px 0px;
+}

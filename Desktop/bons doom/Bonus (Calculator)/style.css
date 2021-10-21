@@ -1,0 +1,39 @@
+
+	*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+body {
+
+  padding-top: 10%;
+  padding-left: 40%;
+  text-align: center;
+     vertical-align: middle;
+    background: linear-gradient(to right, #e576f0, #ec8a9f);
+  }
+		.title{
+		margin-bottom: 10px;
+		text-align:center;
+		width: 210px;
+		color:black;
+		}
+
+		input[type="button"]
+		{
+			padding: 15px;
+		background-color:pink;
+		color: black;
+		border: solid pink 2px;
+		width:100%
+		}
+
+		input[type="text"]
+		{
+			padding: 15px;
+		background-color:white;
+		border: solid pink 1px;
+		width:100%
+		}
